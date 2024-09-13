@@ -1,0 +1,102 @@
+.wpcf7 {
+  & .wpcf7-form {
+    & p:first-of-type {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-gap: 20px;
+      & br {
+        display: none;
+      }
+      & span {
+        grid-column: span 1;
+        @include Mobile {
+          grid-column: span 2;
+        }
+        & input,
+        textarea {
+          box-shadow: var(--wp--preset--shadow--sharp);
+          padding: 10px 15px;
+          border-radius: 46px;
+          max-width: 100%;
+          width: 100%;
+        }
+        & textarea {
+          border-radius: 20px;
+        }
+        &:has(.wpcf7-textarea) {
+          grid-column: span 2;
+        }
+        &:has(.name),
+        &:has(.email),
+        &:has(.phone),
+        &:has(.company) {
+          position: relative;
+          & input {
+            padding-right: 40px;
+          }
+          &::after {
+            content: '';
+            display: block;
+            width: 22px;
+            height: 22px;
+            position: absolute;
+            right: 15px;
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
+        }
+        &:has(.name) {
+          &::after {
+            background-image: url('assets/img/icons/name.svg');
+            top: 12px;
+          }
+        }
+        &:has(.phone) {
+          &::after {
+            background-image: url('assets/img/icons/phone.svg');
+            top: 13px;
+          }
+        }
+        &:has(.email) {
+          &::after {
+            background-image: url('assets/img/icons/email.svg');
+            top: 17px;
+          }
+        }
+        &:has(.company) {
+          &::after {
+            background-image: url('assets/img/icons/company.svg');
+            top: 13px;
+          }
+        }
+      }
+      & .wpcf7-not-valid-tip {
+        margin-top: 10px;
+        margin-left: 15px;
+      }
+    }
+    & input[type='submit'] {
+      margin-top: 20px;
+      border: none;
+      cursor: pointer;
+      font-family: $text-header;
+      background-color: var(--wp--preset--color--primary);
+      border-radius: 10000px;
+      color: white;
+      font-weight: 600;
+      box-shadow: none;
+      text-decoration: none;
+      padding: 0.667em 1.333em;
+      font-size: 1em;
+      transition: all 0.2s;
+      letter-spacing: 2px;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+    & .wpcf7-response-output {
+      border: none;
+      padding: 10px 0;
+    }
+  }
+}

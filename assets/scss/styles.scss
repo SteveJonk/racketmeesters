@@ -1,0 +1,48 @@
+@import 'tailwindcss/base';
+@import './custom-base-styles';
+
+@import 'tailwindcss/components';
+/*
+ * uncomment if adding custom commponents
+@import "./custom-components.css";
+*/
+
+@import 'tailwindcss/utilities';
+/*
+ * uncomment if adding custom utilities
+@import "./custom-utilities.css";
+*/
+
+/* Base */
+@import './screens';
+@import './variables';
+@import './utils';
+@import './typography';
+@import './wordpress-override';
+
+/* Components  */
+@import './components/admin-login';
+@import './components/buttons';
+@import './components/container';
+@import './components/navbar';
+@import './components/image';
+@import './components/cover';
+@import './components/social-links';
+@import './components/forms';
+@import './components/carousel';
+@import './components/post-card';
+@import './components/post-header';
+@import './components/post-list';
+@import './components/tag-list';
+@import './components/pagination';
+@import './components/footer';
+
+/* admin bar fix */
+body.admin-bar {
+  max-height: calc(100vh - 32px);
+  & .header {
+    @include onlyDesktop {
+      top: 32px;
+    }
+  }
+}

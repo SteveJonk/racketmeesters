@@ -1,0 +1,41 @@
+.hide-mobile {
+  @include Mobile {
+    display: none !important;
+  }
+}
+
+.hide-tablet {
+  @include Tablet {
+    display: none !important;
+  }
+}
+
+.hide-desktop {
+  @include onlyDesktop {
+    display: none !important;
+  }
+}
+
+.tablet-mobile-only {
+  display: none !important;
+  @include Tablet {
+    display: block !important;
+  }
+}
+
+.mobile-only {
+  display: none !important;
+  @include Mobile {
+    display: block !important;
+  }
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.text-center-mobile {
+  @include Mobile {
+    text-align: center;
+  }
+}

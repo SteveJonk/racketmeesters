@@ -1,0 +1,5 @@
+.wp-block-spacer {
+  @include Mobile {
+    max-height: 40px;
+  }
+}

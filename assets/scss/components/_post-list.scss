@@ -1,0 +1,21 @@
+.page-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.post-list {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 40px;
+  @include Mobile {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+.related-posts {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  & h2 {
+    margin-bottom: 20px;
+  }
+}

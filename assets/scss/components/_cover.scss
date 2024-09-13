@@ -1,0 +1,39 @@
+.is-style-hero {
+  &::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: calc(100% - 300px);
+    width: 40%;
+    background-color: var(--wp--preset--color--primary);
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    @include Mobile {
+      width: 60%;
+    }
+  }
+}
+
+.is-style-about-us {
+  @include Mobile {
+    min-height: 560px !important;
+  }
+  @include onlyDesktop {
+    overflow: visible;
+    position: relative;
+    top: 100px;
+    margin: 20px 60px !important;
+    &::after {
+      content: '';
+      background-image: url('/assets/img/bg-pattern.svg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      left: 50%;
+      top: -100px;
+      transform: translateX(-50%) scale(1.2);
+      position: absolute;
+      width: 100%;
+      height: auto;
+      z-index: -1;
+    }
+  }
+}

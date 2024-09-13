@@ -1,0 +1,8 @@
+.footer {
+  color: var(--wp--preset--color--neutral-800);
+  & > div {
+    @include Mobile {
+      padding: 20px !important;
+    }
+  }
+}

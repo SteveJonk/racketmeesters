@@ -1,0 +1,23 @@
+.tag-list {
+  margin-bottom: 20px;
+  &__link {
+    text-decoration: none;
+    margin-right: 5px;
+    border: 1px solid var(--wp--preset--color--primary);
+    border-radius: 1000px;
+    color: var(--wp--preset--color--primary);
+    padding: 5px 10px;
+    display: inline-block;
+    margin-bottom: 5px;
+    transition: all 0.2s;
+    &:hover {
+      background-color: var(--wp--preset--color--primary);
+      color: white;
+    }
+    @include Tablet {
+      &:nth-of-type(n + 7) {
+        display: none;
+      }
+    }
+  }
+}

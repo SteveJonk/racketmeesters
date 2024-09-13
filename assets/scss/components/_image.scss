@@ -1,0 +1,37 @@
+.is-style-home-block {
+  background-color: $grey-600;
+  position: relative;
+  & img {
+    object-fit: cover;
+    width: 100% !important;
+    height: 70vh !important;
+    opacity: 0.4;
+    transition: opacity 0.5s;
+  }
+  & figcaption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $grey-200;
+    font-size: 30px;
+    transition: opacity 0.5s;
+  }
+  &:hover {
+    & img {
+      opacity: 1;
+    }
+    & figcaption {
+      opacity: 0;
+    }
+  }
+}
+
+.is-style-quote {
+  position: relative;
+  &::after {
+    content: url('assets/img/icons/quote.svg');
+    position: absolute;
+    top: 0;
+  }
+}

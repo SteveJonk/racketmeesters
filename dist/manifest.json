@@ -1,0 +1,61 @@
+{
+  "assets/fonts/Inter-Variable.woff2": {
+    "file": "assets/Inter-Variable-2a543642.woff2",
+    "src": "assets/fonts/Inter-Variable.woff2"
+  },
+  "assets/img/Logo.png": {
+    "file": "assets/Logo-028cfe6d.png",
+    "src": "assets/img/Logo.png"
+  },
+  "assets/img/bg-pattern.svg": {
+    "file": "assets/bg-pattern-148722bb.svg",
+    "src": "assets/img/bg-pattern.svg"
+  },
+  "assets/img/icons/carret-down.svg": {
+    "file": "assets/carret-down-007cfe2d.svg",
+    "src": "assets/img/icons/carret-down.svg"
+  },
+  "assets/img/icons/company.svg": {
+    "file": "assets/company-308c03b0.svg",
+    "src": "assets/img/icons/company.svg"
+  },
+  "assets/img/icons/email.svg": {
+    "file": "assets/email-98b6bc87.svg",
+    "src": "assets/img/icons/email.svg"
+  },
+  "assets/img/icons/name.svg": {
+    "file": "assets/name-4d88a521.svg",
+    "src": "assets/img/icons/name.svg"
+  },
+  "assets/img/icons/phone.svg": {
+    "file": "assets/phone-df7b14e2.svg",
+    "src": "assets/img/icons/phone.svg"
+  },
+  "assets/img/icons/quote.svg": {
+    "file": "assets/quote-f2dff731.svg",
+    "src": "assets/img/icons/quote.svg"
+  },
+  "main.css": {
+    "file": "assets/main-08dad8cd.css",
+    "src": "main.css"
+  },
+  "main.js": {
+    "assets": [
+      "assets/Inter-Variable-2a543642.woff2",
+      "assets/Logo-028cfe6d.png",
+      "assets/carret-down-007cfe2d.svg",
+      "assets/quote-f2dff731.svg",
+      "assets/bg-pattern-148722bb.svg",
+      "assets/name-4d88a521.svg",
+      "assets/phone-df7b14e2.svg",
+      "assets/email-98b6bc87.svg",
+      "assets/company-308c03b0.svg"
+    ],
+    "css": [
+      "assets/main-08dad8cd.css"
+    ],
+    "file": "assets/main-cf551f40.js",
+    "isEntry": true,
+    "src": "main.js"
+  }
+}
