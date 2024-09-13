@@ -15,7 +15,7 @@ const swiper = new Swiper('.swiper', {
     prevEl: '.swiper-button-prev',
   },
   loop: true,
-  centeredSlides: true,
+  centeredSlides: false,
   centeredSlidesBounds: true,
   slidesPerView: 1,
   autoHeight: false,
@@ -26,8 +26,12 @@ const swiper = new Swiper('.swiper', {
   spaceBetween: 40,
   breakpoints: {
     769: {
-      slidesPerView: 1.5,
-      spaceBetween: 40,
+      slidesPerView: 2.5,
+      spaceBetween: 30,
+    },
+    1000: {
+      slidesPerView: 3,
+      spaceBetween: 30,
     },
   },
 });

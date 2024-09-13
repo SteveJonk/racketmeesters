@@ -26,10 +26,6 @@ function testimonial_carousel_function()
 
             <?php } ?>
         </div>
-        <div class="swiper-buttons">
-            <div class="swiper-button swiper-button-prev"></div>
-            <div class="swiper-button swiper-button-next"></div>
-        </div>
     </div>
     <?php
     wp_reset_postdata(); ?>

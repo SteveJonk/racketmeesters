@@ -8,48 +8,14 @@
   & .wp-block-columns {
     background-color: white;
   }
-  & .swiper-buttons {
-    position: relative;
-    display: flex;
-    margin-top: 70px;
-    width: 100%;
-    justify-content: center;
-    gap: 80px;
-    overflow: visible;
-    @include Mobile {
-      margin-top: 50px;
-      gap: 40px;
-    }
-    & .swiper-button {
-      position: static;
-      aspect-ratio: 1/1;
-      width: 50px;
-      height: 50px;
-      border-radius: 5000px;
-      transition: opacity 0.2s;
-      &:hover {
-        opacity: 0.8;
-      }
-      &::after {
-        font-size: 20px;
-      }
-      &-prev {
-        color: white;
-        background-color: var(--wp--preset--color--neutral-800);
-      }
-      &-next {
-        background-color: var(--wp--preset--color--primary);
-        color: white;
-      }
-    }
-  }
 }
 
 .testimonial {
   &__card {
-    background-color: var(--wp--preset--color--neutral-150);
+    background-color: white;
     padding: 30px;
     height: 100%;
+    box-shadow: var(--wp--preset--shadow--natural-small);
     & img {
       max-width: none;
     }

@@ -9,17 +9,12 @@
         {
           "name": "Primary",
           "slug": "primary",
-          "color": "#6EB3A4"
-        },
-        {
-          "name": "Primary Light",
-          "slug": "primary-light",
-          "color": "#01BEA5"
+          "color": "#6DABF4"
         },
         {
           "name": "Secondary",
           "slug": "secondary",
-          "color": "#060443"
+          "color": "#333461"
         },
         {
           "name": "Neutral 100",
@@ -34,7 +29,7 @@
         {
           "name": "Neutral 200",
           "slug": "neutral-200",
-          "color": "#f5f7fc"
+          "color": "#FAF8F6"
         },
         {
           "name": "Neutral 400",
@@ -52,9 +47,9 @@
           "color": "#1C2129"
         },
         {
-          "name": "Primary Shadow",
-          "slug": "primary-shadow",
-          "color": "#6EB3A447"
+          "name": "Paragraph",
+          "slug": "paragraph",
+          "color": "#4A556C"
         }
       ]
     },
@@ -70,19 +65,19 @@
           "shadow": "0 5px 12px rgba(20, 20, 43, 0.1)"
         },
         {
-          "name": "Sharp",
-          "slug": "sharp",
-          "shadow": "0 2px 6px rgba(20, 20, 43, 0.1)"
+          "name": "Natural Small",
+          "slug": "natural small",
+          "shadow": "0 5px 6px rgba(20, 20, 43, 0.1)"
         },
         {
           "name": "Theme",
           "slug": "theme",
-          "shadow": "2px 2px 0 rgb(110, 179, 164)"
+          "shadow": "6px 6px 0 rgb(109, 171, 244)"
         },
         {
-          "name": "Them 2",
-          "slug": "theme 2",
-          "shadow": "5px 5px 0 rgb(110, 179, 164)"
+          "name": "Theme Small",
+          "slug": "theme-small",
+          "shadow": "3px 3px 0 rgb(109, 171, 244)"
         }
       ]
     },
