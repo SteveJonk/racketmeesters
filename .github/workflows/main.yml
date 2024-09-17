@@ -27,7 +27,7 @@ jobs:
         run: npm run build
         
       - name: Sync files
-        uses: sand4rt/ftp-deployer@v1.8
+        uses: sand4rt/ftp-deployer@v1.6
         with:
            host: ${{ secrets.FTP_HOST }} #Without (s)ftp://
            sftp: true
@@ -36,4 +36,5 @@ jobs:
            port: 22
            local_folder: / #current folder
            remote_folder: ${{ secrets.FTP_PATH }} #Something like /data/sites/web/stevejonkcom/subdomains/[SITE_NAME]/wp-content/themes/[THEME_FOLDER_NAME]
-           exclude: "['node_modules/**', '.git/**', '*.env']"
+           exclude: '["node_modules/**", ".git/**", ".env"]'
+
