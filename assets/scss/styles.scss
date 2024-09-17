@@ -40,9 +40,17 @@
 /* admin bar fix */
 body.admin-bar {
   max-height: calc(100vh - 32px);
+  & #wpadminbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
   & .header {
-    @include onlyDesktop {
-      top: 32px;
+    top: 32px;
+    @include Mobile {
+      top: 46px;
     }
   }
 }
