@@ -42,6 +42,12 @@
   padding: 0 !important;
 }
 
+.no-stack-tablet {
+  @include MinTablet {
+    flex-wrap: nowrap !important;
+  }
+}
+
 .text-center-mobile {
   @include Mobile {
     text-align: center;

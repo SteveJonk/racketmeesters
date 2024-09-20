@@ -10,6 +10,12 @@
   }
 }
 
+@mixin MinTablet {
+  @media (min-width: 700px) {
+    @content;
+  }
+}
+
 @mixin smallDesktop {
   @media (max-width: 990px) {
     @content;

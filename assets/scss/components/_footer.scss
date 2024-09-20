@@ -1,8 +1,22 @@
 .footer {
   color: var(--wp--preset--color--neutral-800);
-  & > div {
-    @include Mobile {
-      padding: 20px !important;
+  & a {
+    font-weight: 300;
+    &:hover {
+      font-weight: 500;
     }
+  }
+  @include Mobile {
+    text-align: center;
+    & img {
+      margin: 0 auto;
+    }
+  }
+}
+
+.wpcf7-form {
+  & .newsletter p {
+    display: flex !important;
+    align-items: center;
   }
 }
