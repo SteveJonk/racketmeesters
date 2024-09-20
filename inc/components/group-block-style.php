@@ -8,11 +8,18 @@ register_block_style(
     )
 );
 
-
 register_block_style(
     'core/columns',
     array(
         'name'         => 'container',
         'label'        => __('Container', 'textdomain'),
+    )
+);
+
+register_block_style(
+    'core/group',
+    array(
+        'name'         => 'header-text-icon',
+        'label'        => __('Header Text Icon', 'textdomain'),
     )
 );

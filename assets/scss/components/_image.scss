@@ -35,3 +35,13 @@
     top: 0;
   }
 }
+
+.is-style-header-icon {
+  position: absolute;
+  z-index: -1;
+  right: -10%;
+  top: -10%;
+  @include Tablet {
+    right: 0;
+  }
+}

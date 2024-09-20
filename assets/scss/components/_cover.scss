@@ -37,3 +37,27 @@
     }
   }
 }
+
+.is-style-header-image {
+  transform: translateY(30px);
+  overflow: visible;
+  & img {
+    border-radius: 30px;
+  }
+  @include Tablet {
+    transform: translateY(10px);
+  }
+}
+
+.flex-grow div.wp-block-group:has(.is-style-header-image) {
+  overflow: visible;
+}
+
+.is-style-header-text-icon {
+  transform: translate(-80px, -80px);
+  @include Tablet {
+    position: absolute;
+    right: 0;
+    transform: translate(10px, -60px);
+  }
+}

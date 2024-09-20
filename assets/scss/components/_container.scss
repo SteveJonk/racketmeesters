@@ -9,6 +9,7 @@
 }
 
 .wp-block-group {
+  z-index: 0;
   @include Mobile {
     overflow-x: clip;
   }

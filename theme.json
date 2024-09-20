@@ -141,7 +141,7 @@
     "blocks": {
       "core/heading": {
         "color": {
-          "text": "var(--wp--preset--color--neutral-800)"
+          "text": "var(--wp--preset--color--secondary)"
         }
       }
     }
