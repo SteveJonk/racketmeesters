@@ -16,6 +16,14 @@ register_block_style(
 );
 
 register_block_style(
+    'core/image',
+    array(
+        'name'         => 'flush-right',
+        'label'        => __('Flush right', 'textdomain'),
+    )
+);
+
+register_block_style(
     'core/cover',
     array(
         'name'         => 'header-image',

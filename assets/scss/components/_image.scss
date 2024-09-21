@@ -45,3 +45,14 @@
     right: 0;
   }
 }
+
+.is-style-flush-right {
+  transform: translate(50px, 30px);
+  @include Mobile {
+    transform: translate(50px, 30px) scale(1.3);
+  }
+}
+
+.wp-block-columns:has(.is-style-flush-right) {
+  overflow: clip;
+}
