@@ -17,6 +17,11 @@
           "color": "#333461"
         },
         {
+          "name": "Tertiary",
+          "slug": "tertiary",
+          "color": "#0b8155"
+        },
+        {
           "name": "Neutral 100",
           "slug": "neutral-100",
           "color": "#ffffff"
