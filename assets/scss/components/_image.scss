@@ -40,9 +40,12 @@
   position: absolute;
   z-index: -1;
   right: -10%;
-  top: -10%;
+  top: -20%;
   @include Tablet {
     right: 0;
+  }
+  @include Mobile {
+    top: -60%;
   }
 }
 

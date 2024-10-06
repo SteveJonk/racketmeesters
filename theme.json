@@ -120,6 +120,18 @@
           "slug": "xx-large",
           "size": "60px"
         }
+      ],
+      "fontFamilies": [
+        {
+          "fontFamily": "KumbhSans",
+          "name": "KumbhSans",
+          "slug": "kumbhsans"
+        },
+        {
+          "fontFamily": "FuturaBold",
+          "name": "Futura Bold",
+          "slug": "futura-bold"
+        }
       ]
     },
     "useRootPaddingAwareAlignments": false,
