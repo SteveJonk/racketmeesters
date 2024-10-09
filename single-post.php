@@ -14,7 +14,7 @@
             'post__not_in' => array($post->ID)
         )); ?>
         <section class="related-posts">
-            <h2>Related posts</h2>
+            <h2>Ander nieuws</h2>
             <div class="post-list">
                 <?php
                 if ($related) foreach ($related as $post) {
