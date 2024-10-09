@@ -23,20 +23,21 @@
 /* Components  */
 @import './components/admin-login';
 @import './components/buttons';
-@import './components/container';
-@import './components/navbar';
-@import './components/image';
-@import './components/cover';
-@import './components/social-links';
-@import './components/forms';
 @import './components/carousel';
+@import './components/container';
+@import './components/cover';
+@import './components/footer';
+@import './components/forms';
+@import './components/image';
+@import './components/intro-animation';
+@import './components/latest-posts';
+@import './components/navbar';
+@import './components/pagination';
 @import './components/post-card';
 @import './components/post-header';
 @import './components/post-list';
+@import './components/social-links';
 @import './components/tag-list';
-@import './components/pagination';
-@import './components/footer';
-@import './components/intro-animation';
 
 /* admin bar fix */
 body.admin-bar {

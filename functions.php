@@ -37,3 +37,13 @@ function theme_support()
 }
 
 add_action("after_setup_theme", "theme_support");
+
+// Remove Archive functionality 
+function disable_standard_post_archives()
+{
+    if (is_category() || is_tag() || is_date() || is_author() || is_post_type_archive('post')) {
+        wp_redirect(home_url(), 301); // Redirect to the homepage or any other URL
+        exit;
+    }
+}
+add_action('template_redirect', 'disable_standard_post_archives');

@@ -1,0 +1,20 @@
+.wp-block-latest-posts {
+  &.is-grid {
+    & li {
+      @include Mobile {
+        margin: 0;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  &__featured-image {
+    margin-bottom: 10px;
+    & a {
+      width: 100%;
+    }
+    & img {
+      border-radius: 20px;
+      width: 100%;
+    }
+  }
+}

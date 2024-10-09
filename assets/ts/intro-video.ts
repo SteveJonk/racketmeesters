@@ -19,6 +19,14 @@ document.addEventListener('DOMContentLoaded', () => {
       document.cookie = 'stef_hide_intro=true; max-age=3600; path=/; samesite=strict';
     }, 600);
   });
+
+  container.addEventListener('transitionend', (e) => {
+    //@ts-ignore
+    if (e.propertyName === 'opacity') {
+      //@ts-ignore
+      container.style.display = 'none';
+    }
+  });
 });
 
 const getCookie = (cname) => {
