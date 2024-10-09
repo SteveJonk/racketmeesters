@@ -1,0 +1,19 @@
+.intro-animation {
+  &__container {
+    opacity: 1;
+    transition: opacity 0.6s ease-in-out;
+    &.fade-out {
+      opacity: 0;
+    }
+  }
+  &__image {
+    transform: scale(0.6) rotate(0);
+    transition: transform 2s ease-in-out;
+    &.animate {
+      transform: scale(1.2) rotate(360deg);
+    }
+    @include Mobile {
+      max-width: 70%;
+    }
+  }
+}

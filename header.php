@@ -9,7 +9,10 @@
 </head>
 
 <body <?php body_class('flex flex-col h-screen') ?>>
-    <?php wp_body_open(); ?>
+    <?php
+    wp_body_open();
+    get_template_part('template-parts/intro-video');
+    ?>
 
     <header class="header">
         <div class="header__body container">
