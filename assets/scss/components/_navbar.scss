@@ -103,7 +103,7 @@ body {
                 margin-bottom: 10px;
               }
             }
-            & .sub-menu {
+            & > .sub-menu {
               position: absolute;
               padding-left: 0;
               padding: 1em;
@@ -128,13 +128,13 @@ body {
                 }
               }
             }
-            &:hover .sub-menu {
+            &:hover > .sub-menu {
               display: flex;
               @include Tablet {
                 display: none;
               }
             }
-            &.show-sub-menu .sub-menu {
+            &.show-sub-menu > .sub-menu {
               display: flex;
             }
           }

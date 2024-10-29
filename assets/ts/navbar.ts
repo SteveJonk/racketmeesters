@@ -19,6 +19,9 @@ closeButton?.addEventListener('click', (event) => {
  */
 
 const navBarDropdownLinks = document.querySelectorAll('.menu-item-has-children > a');
+const deeperNavBarDropdownLinks = document.querySelectorAll(
+  '.menu-item-has-children .sub-menu .menu-item-has-children > a'
+);
 
 const SHOW_CLASSNAME = 'show-sub-menu';
 
@@ -27,11 +30,11 @@ navBarDropdownLinks.forEach((navBarDropdownLink) => {
     event.preventDefault();
 
     if (!navBarDropdownLink.parentElement.classList.contains(SHOW_CLASSNAME)) {
-      navBarDropdownLinks.forEach((otherLink) => {
-        otherLink.classList.remove(SHOW_CLASSNAME);
-      });
       navBarDropdownLink.parentElement.classList.add(SHOW_CLASSNAME);
     } else {
+      deeperNavBarDropdownLinks.forEach((deeperLink) => {
+        deeperLink.parentElement.classList.remove(SHOW_CLASSNAME);
+      });
       navBarDropdownLink.parentElement.classList.remove(SHOW_CLASSNAME);
     }
   });

@@ -40,7 +40,7 @@
                 <?php wp_nav_menu(
                     array(
                         'theme_location' => 'headerMenuLocation',
-                        'depth' => 2,
+                        'depth' => 3,
                         'container' => true,
                         'menu_id' => "navbar",
                     )
