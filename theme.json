@@ -160,6 +160,11 @@
         "color": {
           "text": "var(--wp--preset--color--secondary)"
         }
+      },
+      "core/list": {
+        "color": {
+          "text": "var(--wp--preset--color--paragraph)"
+        }
       }
     }
   }

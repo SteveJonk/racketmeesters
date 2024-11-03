@@ -7,5 +7,6 @@ if (!isset($_COOKIE[$cookie_name])) {
         <img src="<?php echo get_theme_mod('navbar_logo'); ?>" class="intro-animation__image invert" alt="logo" height=400
             width=400 loading="eager">
     </div>
-<?
+<?php
 }
+?>

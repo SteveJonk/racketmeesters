@@ -1,4 +1,8 @@
 {
+  "assets/fonts/Futura-Bold.woff2": {
+    "file": "assets/Futura-Bold-a348cae3.woff2",
+    "src": "assets/fonts/Futura-Bold.woff2"
+  },
   "assets/fonts/KumbhSans-Variable.woff2": {
     "file": "assets/KumbhSans-Variable-dc41b578.woff2",
     "src": "assets/fonts/KumbhSans-Variable.woff2"
@@ -36,25 +40,26 @@
     "src": "assets/img/icons/quote.svg"
   },
   "main.css": {
-    "file": "assets/main-11e3afb8.css",
+    "file": "assets/main-fbf50944.css",
     "src": "main.css"
   },
   "main.js": {
     "assets": [
       "assets/KumbhSans-Variable-dc41b578.woff2",
+      "assets/Futura-Bold-a348cae3.woff2",
       "assets/Logo-145154f3.svg",
-      "assets/carret-down-007cfe2d.svg",
-      "assets/quote-f2dff731.svg",
       "assets/bg-pattern-148722bb.svg",
       "assets/name-4d88a521.svg",
       "assets/phone-df7b14e2.svg",
       "assets/email-98b6bc87.svg",
-      "assets/company-308c03b0.svg"
+      "assets/company-308c03b0.svg",
+      "assets/quote-f2dff731.svg",
+      "assets/carret-down-007cfe2d.svg"
     ],
     "css": [
-      "assets/main-11e3afb8.css"
+      "assets/main-fbf50944.css"
     ],
-    "file": "assets/main-618ce9cc.js",
+    "file": "assets/main-96e81da6.js",
     "isEntry": true,
     "src": "main.js"
   }

@@ -6,7 +6,6 @@ if (!defined("ABSPATH")) {
 }
 
 // Main switch to get frontend assets from a Vite dev server OR from production built folder
-
 require_once "inc/inc.vite.php";
 
 // Include needed functions

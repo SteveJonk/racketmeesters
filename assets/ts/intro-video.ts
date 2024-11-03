@@ -1,10 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const hideIntro = Boolean(getCookie('stef_hide_intro'));
-  if (hideIntro) return;
-
-  document.body.style.overflow = 'hidden';
   const container = document.querySelector('.intro-animation__container');
-  const image = container.querySelector('.intro-animation__image');
+  const image = container?.querySelector('.intro-animation__image');
+
+  const hideIntro = Boolean(getCookie('stef_hide_intro'));
+  if (hideIntro) {
+    container?.remove();
+    return;
+  }
 
   document.body.style.overflow = 'hidden';
 
